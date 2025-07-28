@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: delivery-tracking
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/deliverydb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
